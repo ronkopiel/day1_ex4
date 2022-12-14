@@ -1,0 +1,46 @@
+.title{
+    font-family: 'Rubik Vinyl', cursive;
+}
+img{
+    height: 200px;
+}
+#lefimg{
+    border-style:solid;
+    border-radius:4px;
+    border-color:red;
+}
+#middleimg{
+border-style: solid;
+border-radius: 100%;
+border-width: 2px;
+border-color: rgb(38, 90, 135);
+}
+li:nth-child(2){
+    font-family: 'Rubik Vinyl', cursive;
+}
+li:nth-child(3){
+    font-weight: bold;
+}
+a:visited{
+    color: purple;
+}
+a:link{
+    color: blue;
+}
+a:active{
+    color: red;
+}
+button{
+    cursor: pointer;
+    color: white;
+    background-color: blue;
+    padding: 8px;
+}
+button:hover{
+    background-color: darkblue;
+    padding: 8px;
+}
+div{
+    text-align: center;
+    margin:0 auto;
+}
