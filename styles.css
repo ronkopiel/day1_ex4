@@ -91,18 +91,14 @@ button:hover{
 footer {
     position: fixed;
     bottom: 0px;
-    /* display: block; */
-    /* width: 100%; */
     left: 0px;
-    right: 0px;
-    
+    right: 0px;   
 }
 .footer-content {
     position: relative;
     background-color: rgb(89, 38, 130);
 }
 .my-name {
-    /* margin-right: 90%; */
     position: 'absolute';
     left: 0px;
     bottom: 0px;
