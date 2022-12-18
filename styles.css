@@ -1,3 +1,7 @@
+body {
+    background-color: rgb(163, 202, 211);
+}
+
 header {
     position: sticky;
     top: 0px;
@@ -87,19 +91,28 @@ button:hover{
 footer {
     position: fixed;
     bottom: 0px;
+    /* display: block; */
+    /* width: 100%; */
     left: 0px;
     right: 0px;
-    display: inline-block;
-    z-index: 50;
+    
+}
+.footer-content {
+    position: relative;
     background-color: rgb(89, 38, 130);
 }
 .my-name {
-    margin-right: 90%;
-    display: inline-block;
+    /* margin-right: 90%; */
+    position: 'absolute';
+    left: 0px;
+    bottom: 0px;
+    display: inline;
     color: aliceblue;
 }
 .date-created {
-    display: inline-block;
-        color: aliceblue;
-    
+    position: absolute;
+    right: 0px;
+    bottom: 0px;
+    display: inline;
+    color: aliceblue;
 }
