@@ -12,15 +12,19 @@ header {
 }
 .about-me {
     display: inline-block;
-    margin-left: auto;
-    margin-right: auto;
-    margin: 3px;
+    margin-left: 50%;
+    margin-right: 50%;
     border: 2px;
+    border-style: solid;
+    border-color: rgb(52, 23, 107);
+    border-radius: 5px;
     padding: 3px;
-    
+    margin-top: 2px;
+    margin-bottom: 2px;
+    width: max-content;
 }
 .contact-me {
-    display: inline-block;
+    display: inline;
     margin: 2px;
     border: 2px;
     border-style: solid;
@@ -29,9 +33,10 @@ header {
     padding: 3px;
     position: absolute;
     right: 100px;
+    top: 0px;
 }
 .places {
-    display: inline-block;
+    display: inline;
     margin: 2px;
     border: 2px;
     border-style: solid;
@@ -40,6 +45,7 @@ header {
     right: 0px;
     border-radius: 5px;
     padding: 3px;
+    top: 0px;
 }
 .title{
     font-family: 'Rubik Vinyl', cursive;
