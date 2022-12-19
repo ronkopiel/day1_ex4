@@ -7,4 +7,3 @@ function handleClick() {
 function delayHandleClick() {
     setTimeout(handleClick, 3000);
 }
-delayHandleClick();
