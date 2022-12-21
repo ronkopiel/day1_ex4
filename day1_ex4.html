@@ -14,19 +14,18 @@
     <script src="main.js"></script>
     <header>
         <div class="header-content">
-            <div class="about-me">
+            <div class="about-me" class="button">
                 A Bit About Me
             </div>
-            <button onclick="delayandleClick()">
-                <div class="contact-me" id="ContactMe">
-                    Contact Me
+                <div class="contact-me" id="ContactMe" class="button" onclick="delayHandleClick()">
+                    <button>Contact Me </button>
                 </div>
-            </button>
-            <button onclick="delayHandleClick()">
-                <div class="places" id="PlacesILove">
-                    Places I love
+                <div class="places" id="PlacesILove" class="button" onclick="delayHandleClick()">
+                    <button>Places I love </button>
                 </div>
-            </button>
+                <div class="dark-mode-button" class="button" onclick="toggleDarkMode()"> 
+                   <button id="DarkMode" value ='OFF'>toggle darkmode </button>
+                 </div>
         </div>
     </header>
     <h1 class="title">Ron Kopiel</h1>

@@ -14,29 +14,26 @@ header {
     display: inline-block;
     margin-left: 50%;
     margin-right: 50%;
-    border: 2px;
-    border-style: solid;
-    border-color: rgb(52, 23, 107);
-    border-radius: 5px;
-    padding: 3px;
-    margin-top: 2px;
-    margin-bottom: 2px;
+    margin-top: 10px;
+    margin-bottom: 10px;
     width: max-content;
+    color: white;
+    padding: 5px;
 }
 .contact-me {
-    display: inline;
+    display: inline-block;
     margin: 2px;
     border: 2px;
     border-style: solid;
     border-color: rgb(52, 23, 107);
     border-radius: 5px;
-    padding: 3px;
     position: absolute;
     right: 100px;
     top: 0px;
+    cursor: pointer;
 }
 .places {
-    display: inline;
+    display: inline-block;
     margin: 2px;
     border: 2px;
     border-style: solid;
@@ -44,8 +41,20 @@ header {
     position: absolute;
     right: 0px;
     border-radius: 5px;
-    padding: 3px;
     top: 0px;
+    cursor: pointer;
+}
+.dark-mode-button {
+    display: inline-block;
+    margin: 2px;
+    border: 2px;
+    border-style: solid;
+    border-color: rgb(52, 23, 107);
+    position: absolute;
+    right: 200px;
+    border-radius: 5px;
+    top: 0px;
+    cursor: pointer;
 }
 .title{
     font-family: 'Rubik Vinyl', cursive;
@@ -79,17 +88,17 @@ a:link{
 a:active{
     color: red;
 }
-button{
+button {
     cursor: pointer;
     color: white;
     background-color: blue;
     padding: 8px;
 }
-button:hover{
+button:hover {
     background-color: darkblue;
     padding: 8px;
 }
-.button{
+.button {
     display: inline-block;
     text-align: center;
     margin-left: 50%;
@@ -118,3 +127,12 @@ footer {
     display: inline;
     color: aliceblue;
 }
+.dark-mode {
+    background-color: rgb(50, 50, 50);
+    color: aliceblue;
+}
+.light-mode {
+    background-color: default;
+    color: default;
+}
+
