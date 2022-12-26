@@ -19,3 +19,14 @@ function toggleDarkMode() {
             document.body.setAttribute('class', 'light-mode');
         }
 }
+const favoriteFoods = [`ramen`,`burger`,`pillaf`,`sabich`];
+let makeList = `<ul>`;
+function listFavoriteFoods(foodArray) { 
+    for (i = 0; i < foodArray.length; i++) {
+        const food = foodArray[i];
+        makeList += `<li>${food}</li>`;
+    }
+    makeList += `</ul>`;
+    document.getElementById("favorite-food").outerHTML = makeList;
+}
+listFavoriteFoods(favoriteFoods);
