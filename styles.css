@@ -101,7 +101,8 @@ button:hover {
 .button {
     display: inline-block;
     text-align: center;
-    margin-left: 50%;
+    margin-top: 20px;
+    /* margin-left: 50%; */
 }
 footer {
     position: fixed;
@@ -135,4 +136,32 @@ footer {
     background-color: default;
     color: default;
 }
+.image-block {
+    height: 200px;
+    width: 400px;
+    margin-right: 20px;
+    margin-bottom: 200px;
+}
+#objects {
+    display: flex;
 
+}
+.container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.self-description {
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 100px;
+    align-self: flex-start;
+    margin-left: 200px;
+}
+#favorite-food {
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 100px;
+    align-self: flex-start;
+    margin-left: 200px;
+}
